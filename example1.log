@@ -1,0 +1,266 @@
+2022-09-24 23:37:09,484 Using sync method
+2022-09-24 23:37:09,485 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:37:09,586 https://reqres.in:443 "GET /api/users?page2 HTTP/1.1" 200 None
+2022-09-24 23:37:09,587 the response code was: 200
+2022-09-24 23:37:18,156 Using sync method
+2022-09-24 23:37:18,156 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:37:18,229 https://reqres.in:443 "GET /api/users?page2 HTTP/1.1" 200 None
+2022-09-24 23:37:18,230 the response code was: 200
+2022-09-24 23:37:18,231 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:37:18,291 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-24 23:37:18,293 Pagination Requested: Created pages
+2022-09-24 23:37:18,293 Using async method
+2022-09-24 23:37:18,293 Using selector: EpollSelector
+2022-09-24 23:37:18,356 HTTP Request: GET https://reqres.in/api/users?page1 "HTTP/1.1 200 OK"
+2022-09-24 23:37:18,367 HTTP Request: GET https://reqres.in/api/users?page2 "HTTP/1.1 200 OK"
+2022-09-24 23:37:18,368 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:37:18,432 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-24 23:37:18,433 Pagination Requested: Created pages
+2022-09-24 23:37:18,433 Using parallel method
+2022-09-24 23:37:26,806 Using sync method
+2022-09-24 23:37:26,807 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:37:26,869 https://reqres.in:443 "GET /api/users?page2 HTTP/1.1" 200 None
+2022-09-24 23:37:26,871 the response code was: 200
+2022-09-24 23:37:26,872 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:37:26,948 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-24 23:37:26,950 Pagination Requested: Created pages
+2022-09-24 23:37:26,950 Using async method
+2022-09-24 23:37:26,950 Using selector: EpollSelector
+2022-09-24 23:37:27,019 HTTP Request: GET https://reqres.in/api/users?page1 "HTTP/1.1 200 OK"
+2022-09-24 23:37:27,030 HTTP Request: GET https://reqres.in/api/users?page2 "HTTP/1.1 200 OK"
+2022-09-24 23:37:27,034 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:37:27,101 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-24 23:37:27,102 Pagination Requested: Created pages
+2022-09-24 23:37:27,103 Using parallel method
+2022-09-24 23:39:41,941 Using sync method
+2022-09-24 23:39:41,962 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:39:42,039 https://reqres.in:443 "GET /api/users?page2 HTTP/1.1" 200 None
+2022-09-24 23:39:42,051 the response code was: 200
+2022-09-24 23:39:42,072 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:39:42,153 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-24 23:39:42,165 Pagination Requested: Created pages
+2022-09-24 23:39:42,168 Using async method
+2022-09-24 23:39:42,172 Using selector: EpollSelector
+2022-09-24 23:39:42,209 Get address info b'reqres.in':443, type=<SocketKind.SOCK_STREAM: 1>
+2022-09-24 23:39:42,211 Getting address info b'reqres.in':443, type=<SocketKind.SOCK_STREAM: 1> took 0.312ms: [(<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('2606:4700:20::ac43:49ad', 443, 0, 0)), (<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('2606:4700:20::681a:bd5', 443, 0, 0)), (<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('2606:4700:20::681a:ad5', 443, 0, 0)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('104.26.11.213', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('172.67.73.173', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('104.26.10.213', 443))]
+2022-09-24 23:39:42,217 Get address info b'reqres.in':443, type=<SocketKind.SOCK_STREAM: 1>
+2022-09-24 23:39:42,220 Getting address info b'reqres.in':443, type=<SocketKind.SOCK_STREAM: 1> took 1.281ms: [(<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('2606:4700:20::681a:ad5', 443, 0, 0)), (<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('2606:4700:20::ac43:49ad', 443, 0, 0)), (<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('2606:4700:20::681a:bd5', 443, 0, 0)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('172.67.73.173', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('104.26.10.213', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('104.26.11.213', 443))]
+2022-09-24 23:39:42,242 <asyncio.TransportSocket fd=8, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('2001:4dd5:a666:0:97f2:c535:7768:92fe', 41928, 0, 0), raddr=('2606:4700:20::ac43:49ad', 443, 0, 0)> connected to 2606:4700:20::ac43:49ad:443: (<_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>>, <anyio._backends._asyncio.StreamProtocol object at 0x7fcd3c3ef760>)
+2022-09-24 23:39:42,244 <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2022-09-24 23:39:42,249 Exception in callback TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629
+handle: <Handle TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629 created at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py:80>
+source_traceback: Object created at (most recent call last):
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <module>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <listcomp>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/APIStuff/__init__.py", line 53, in get_data_form_API
+    results = asyncio.run(self._do_async())
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 1888, in _run_once
+    handle._run()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+Traceback (most recent call last):
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 631, in task_done
+    assert _task in self.cancel_scope._tasks
+AssertionError
+2022-09-24 23:39:42,257 <asyncio.TransportSocket fd=9, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('2001:4dd5:a666:0:97f2:c535:7768:92fe', 48728, 0, 0), raddr=('2606:4700:20::681a:ad5', 443, 0, 0)> connected to 2606:4700:20::681a:ad5:443: (<_SelectorSocketTransport fd=9 read=polling write=<idle, bufsize=0>>, <anyio._backends._asyncio.StreamProtocol object at 0x7fcd3c3eed70>)
+2022-09-24 23:39:42,260 <_SelectorSocketTransport fd=9 read=idle write=<idle, bufsize=0>> pauses reading
+2022-09-24 23:39:42,264 Exception in callback TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629
+handle: <Handle TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629 created at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py:80>
+source_traceback: Object created at (most recent call last):
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <module>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <listcomp>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/APIStuff/__init__.py", line 53, in get_data_form_API
+    results = asyncio.run(self._do_async())
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 1888, in _run_once
+    handle._run()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+Traceback (most recent call last):
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 631, in task_done
+    assert _task in self.cancel_scope._tasks
+AssertionError
+2022-09-24 23:39:42,277 <asyncio.TransportSocket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.178.70', 52586), raddr=('104.26.11.213', 443)> connected to 104.26.11.213:443: (<_SelectorSocketTransport fd=10 read=polling write=<idle, bufsize=0>>, <anyio._backends._asyncio.StreamProtocol object at 0x7fcd3c3ed090>)
+2022-09-24 23:39:42,280 <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>> pauses reading
+2022-09-24 23:39:42,286 Exception in callback TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629
+handle: <Handle TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629 created at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py:80>
+source_traceback: Object created at (most recent call last):
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <module>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <listcomp>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/APIStuff/__init__.py", line 53, in get_data_form_API
+    results = asyncio.run(self._do_async())
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 1888, in _run_once
+    handle._run()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+Traceback (most recent call last):
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 631, in task_done
+    assert _task in self.cancel_scope._tasks
+AssertionError
+2022-09-24 23:39:42,313 <asyncio.TransportSocket fd=10, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('2001:4dd5:a666:0:97f2:c535:7768:92fe', 43952, 0, 0), raddr=('2606:4700:20::681a:bd5', 443, 0, 0)> connected to 2606:4700:20::681a:bd5:443: (<_SelectorSocketTransport fd=10 read=polling write=<idle, bufsize=0>>, <anyio._backends._asyncio.StreamProtocol object at 0x7fcd3c3ed240>)
+2022-09-24 23:39:42,315 <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>> pauses reading
+2022-09-24 23:39:42,321 Exception in callback TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629
+handle: <Handle TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629 created at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py:80>
+source_traceback: Object created at (most recent call last):
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <module>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <listcomp>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/APIStuff/__init__.py", line 53, in get_data_form_API
+    results = asyncio.run(self._do_async())
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 1888, in _run_once
+    handle._run()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+Traceback (most recent call last):
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 631, in task_done
+    assert _task in self.cancel_scope._tasks
+AssertionError
+2022-09-24 23:39:42,349 <asyncio.TransportSocket fd=10, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('2001:4dd5:a666:0:97f2:c535:7768:92fe', 48740, 0, 0), raddr=('2606:4700:20::681a:ad5', 443, 0, 0)> connected to 2606:4700:20::681a:ad5:443: (<_SelectorSocketTransport fd=10 read=polling write=<idle, bufsize=0>>, <anyio._backends._asyncio.StreamProtocol object at 0x7fcd3c3ef970>)
+2022-09-24 23:39:42,352 <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>> pauses reading
+2022-09-24 23:39:42,358 Exception in callback TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629
+handle: <Handle TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629 created at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py:80>
+source_traceback: Object created at (most recent call last):
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <module>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <listcomp>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/APIStuff/__init__.py", line 53, in get_data_form_API
+    results = asyncio.run(self._do_async())
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 1888, in _run_once
+    handle._run()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+Traceback (most recent call last):
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 631, in task_done
+    assert _task in self.cancel_scope._tasks
+AssertionError
+2022-09-24 23:39:42,387 <asyncio.TransportSocket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.178.70', 46650), raddr=('172.67.73.173', 443)> connected to 172.67.73.173:443: (<_SelectorSocketTransport fd=10 read=polling write=<idle, bufsize=0>>, <anyio._backends._asyncio.StreamProtocol object at 0x7fcd3c3ee770>)
+2022-09-24 23:39:42,390 <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>> pauses reading
+2022-09-24 23:39:42,396 Exception in callback TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629
+handle: <Handle TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629 created at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py:80>
+source_traceback: Object created at (most recent call last):
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <module>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <listcomp>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/APIStuff/__init__.py", line 53, in get_data_form_API
+    results = asyncio.run(self._do_async())
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 1888, in _run_once
+    handle._run()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+Traceback (most recent call last):
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 631, in task_done
+    assert _task in self.cancel_scope._tasks
+AssertionError
+2022-09-24 23:39:42,424 <asyncio.TransportSocket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.178.70', 53870), raddr=('104.26.10.213', 443)> connected to 104.26.10.213:443: (<_SelectorSocketTransport fd=10 read=polling write=<idle, bufsize=0>>, <anyio._backends._asyncio.StreamProtocol object at 0x7fcd3c3ef670>)
+2022-09-24 23:39:42,427 <_SelectorSocketTransport fd=10 read=idle write=<idle, bufsize=0>> pauses reading
+2022-09-24 23:39:42,433 Exception in callback TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629
+handle: <Handle TaskGroup._spawn.<locals>.task_done(<Task finishe...events.py:438>) at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py:629 created at /home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py:80>
+source_traceback: Object created at (most recent call last):
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <module>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/main.py", line 29, in <listcomp>
+    print([item for item in results])
+  File "/home/elon/PycharmProjects/APIStuff/APIStuff/__init__.py", line 53, in get_data_form_API
+    results = asyncio.run(self._do_async())
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/base_events.py", line 1888, in _run_once
+    handle._run()
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+Traceback (most recent call last):
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/elon/anaconda3/envs/APIStuff/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 631, in task_done
+    assert _task in self.cancel_scope._tasks
+AssertionError
+2022-09-24 23:42:38,669 Using sync method
+2022-09-24 23:42:38,670 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:42:38,756 https://reqres.in:443 "GET /api/users?page2 HTTP/1.1" 200 None
+2022-09-24 23:42:38,757 the response code was: 200
+2022-09-24 23:42:38,758 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:42:38,830 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-24 23:42:38,831 Pagination Requested: Created pages
+2022-09-24 23:42:38,831 Using async method
+2022-09-24 23:42:38,831 Using selector: EpollSelector
+2022-09-24 23:42:38,904 HTTP Request: GET https://reqres.in/api/users?page1 "HTTP/1.1 200 OK"
+2022-09-24 23:42:38,906 HTTP Request: GET https://reqres.in/api/users?page2 "HTTP/1.1 200 OK"
+2022-09-24 23:42:38,907 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:42:38,973 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-24 23:42:38,974 Pagination Requested: Created pages
+2022-09-24 23:42:38,974 Using parallel method
+2022-09-24 23:43:34,178 Using sync method
+2022-09-24 23:43:34,179 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:43:34,245 https://reqres.in:443 "GET /api/users?page2 HTTP/1.1" 200 None
+2022-09-24 23:43:34,246 the response code was: 200
+2022-09-24 23:43:34,248 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:43:34,318 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-24 23:43:34,319 Pagination Requested: Created pages
+2022-09-24 23:43:34,319 Using async method
+2022-09-24 23:43:34,319 Using selector: EpollSelector
+2022-09-24 23:43:34,383 HTTP Request: GET https://reqres.in/api/users?page2 "HTTP/1.1 200 OK"
+2022-09-24 23:43:34,388 HTTP Request: GET https://reqres.in/api/users?page1 "HTTP/1.1 200 OK"
+2022-09-24 23:43:34,391 Starting new HTTPS connection (1): reqres.in:443
+2022-09-24 23:43:34,455 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-24 23:43:34,456 Pagination Requested: Created pages
+2022-09-24 23:43:34,457 Using parallel method
