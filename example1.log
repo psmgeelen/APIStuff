@@ -264,3 +264,18 @@ AssertionError
 2022-09-24 23:43:34,455 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
 2022-09-24 23:43:34,456 Pagination Requested: Created pages
 2022-09-24 23:43:34,457 Using parallel method
+2022-09-25 14:19:06,315 Using sync method
+2022-09-25 14:19:06,316 Starting new HTTPS connection (1): reqres.in:443
+2022-09-25 14:19:06,502 https://reqres.in:443 "GET /api/users?page2 HTTP/1.1" 200 None
+2022-09-25 14:19:06,513 the response code was: 200
+2022-09-25 14:19:06,514 Starting new HTTPS connection (1): reqres.in:443
+2022-09-25 14:19:06,582 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-25 14:19:06,583 Pagination Requested: Created pages
+2022-09-25 14:19:06,583 Using async method
+2022-09-25 14:19:06,584 Using selector: EpollSelector
+2022-09-25 14:19:06,668 HTTP Request: GET https://reqres.in/api/users?page2 "HTTP/1.1 200 OK"
+2022-09-25 14:19:06,714 HTTP Request: GET https://reqres.in/api/users?page1 "HTTP/1.1 200 OK"
+2022-09-25 14:19:06,717 Starting new HTTPS connection (1): reqres.in:443
+2022-09-25 14:19:06,787 https://reqres.in:443 "GET /api/users HTTP/1.1" 200 None
+2022-09-25 14:19:06,788 Pagination Requested: Created pages
+2022-09-25 14:19:06,788 Using parallel method
